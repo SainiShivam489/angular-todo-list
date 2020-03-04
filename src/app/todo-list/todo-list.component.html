@@ -1,0 +1,5 @@
+<div>
+  <p style="display: inline;" [ngStyle]="{'text-decoration': getCompleted()}">{{element.todo}}</p>
+  <button class="btn btn-danger pull-right" style="display: inline;" (click)="deleteTodo()">Delete</button>
+  <button class="btn btn-warning pull-right" style="display: inline;" (click)="isCompleted()">Done</button>
+</div><br>
